@@ -1,0 +1,49 @@
+@font-face {
+		    font-family: Gotham-Black;
+		    src: url(../fonts/Gotham/Gotham-Black.otf);
+		}
+
+		@font-face {
+		    font-family: Gotham-Bold;
+		    src: url(../fonts/Gotham/Gotham-Bold.otf);
+		}
+		@font-face {
+		    font-family: Gotham-XLight;
+		    src: url(../fonts/Gotham/Gotham-XLight.otf);
+		}
+		.Gotham-XLight{
+			font-family: Gotham-XLight !important;
+		}
+		.Gotham-Black1{
+			font-family: Gotham-Black !important;
+		}
+		.Gotham-Black1:after{
+			content: "CODE";
+			font-size: 38px;
+			letter-spacing: 2px;
+			color: #2ECC71;
+			font-family: Gotham-Black !important;
+		}
+		.Gotham-Black{
+			font-family: Gotham-Black !important;
+		}
+		.no-ita{
+			font-style: normal !important; 
+		}
+		.Gotham-Bold{
+			font-family: Gotham-Bold !important;
+		}
+
+		.Gotham-Bold li a{
+			font-family: Gotham-XLight !important;
+		}
+
+		.font-size-20{
+			    font-size: 17px !important;
+		}
+
+		.lineh{
+			line-height: 1.2;
+			font-weight: 700 !important;
+			font-size: 18px !important;
+		}

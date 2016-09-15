@@ -1,0 +1,19 @@
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|json|lock|swp|py|xml|phtml|g)|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^feed/(.*)$ post.php?&id=$1
+RewriteRule ^Error/(.*)$ 404.php
+RewriteRule ^category/([Z0-9]*)$ cat.php?catid=$1
+#RewriteRule ^category/([0-9]+)\-([a-zA-Z0-9-]*)$ cat.php?catid=$1
+RewriteRule ^p/(.*)$ index.php?page=$1

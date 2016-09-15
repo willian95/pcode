@@ -1,0 +1,403 @@
+body{
+	background-color: #ecf0f1;
+}
+		@font-face {
+		    font-family: Gotham-Black;
+		    src: url(../../../fonts/Gotham/Gotham-Black.otf);
+		}
+		@font-face {
+		    font-family: Gotham-BlackIta;
+		    src: url(../../../fonts/Gotham/Gotham-BlackIta.otf);
+		}
+		@font-face {
+		    font-family: Gotham-Bold;
+		    src: url(../../../fonts/Gotham/Gotham-Bold.otf);
+		}
+		@font-face {
+		    font-family: Gotham-BoldIta;
+		    src: url(../../../fonts/Gotham/Gotham-BoldIta.otf);
+		}
+		@font-face {
+		    font-family: Gotham-Book;
+		    src: url(../../../fonts/Gotham/Gotham-Book.otf);
+		}
+		@font-face {
+		    font-family: Gotham-Light;
+		    src: url(../../../fonts/Gotham/Gotham-Light.otf);
+		}
+		@font-face {
+		    font-family: Gotham-LightIta;
+		    src: url(../../../fonts/Gotham/Gotham-LightIta.otf);
+		}
+		@font-face {
+		    font-family: Gotham-Medium;
+		    src: url(../../../fonts/Gotham/Gotham-Medium.otf);
+		}
+		@font-face {
+		    font-family: Gotham-MediumIta;
+		    src: url(../../../fonts/Gotham/Gotham-MediumIta.otf);
+		}
+		
+
+
+
+		@font-face {
+		    font-family: Gotham-Thin;
+		    src: url(../../../fonts/Gotham/Gotham-Thin.otf);
+		}
+		@font-face {
+		    font-family: Gotham-ThinIta;
+		    src: url(../../../fonts/Gotham/Gotham-ThinIta.otf);
+		}
+		@font-face {
+		    font-family: Gotham-Ultra;
+		    src: url(../../../fonts/Gotham/Gotham-Ultra.otf);
+		}
+		@font-face {
+		    font-family: Gotham-UltraIta;
+		    src: url(../../../fonts/Gotham/Gotham-UltraIta.otf);
+		}
+		@font-face {
+		    font-family: Gotham-XLight;
+		    src: url(../../../fonts/Gotham/Gotham-XLight.otf);
+		}
+		@font-face {
+		    font-family: Gotham-XLightIta;
+		    src: url(../../../fonts/Gotham/Gotham-XLightIta.otf);
+		}
+
+		.Gotham-Black{
+			font-family: Gotham-Black;
+		}
+		.Gotham-BlackIta{
+			font-family: Gotham-BlackIta;
+		}
+		.Gotham-Bold{
+			font-family: Gotham-Bold;
+		}
+		.Gotham-BoldIta{
+			font-family: Gotham-BoldIta;
+		}
+		.Gotham-Book{
+			font-family: Gotham-Book;
+		}
+		.Gotham-Light{
+			font-family: Gotham-Light;
+		}
+		.Gotham-LightIta{
+			font-family: Gotham-LightIta;
+		}
+		.Gotham-Medium{
+			font-family: Gotham-Medium;
+		}
+		.Gotham-MediumIta{
+			font-family: Gotham-MediumIta;
+		}
+
+
+
+		.Gotham-Thin{
+			font-family: Gotham-Thin;
+		}
+    .Gotham-Thin-open{
+      font-family: Gotham-Thin "Open Sans",Helvetica,Arial,sans-serif;
+    }
+		.Gotham-ThinIta{
+			font-family: Gotham-ThinIta;
+		}
+		.Gotham-Ultra{
+			font-family: Gotham-Ultra;
+		}
+		.Gotham-UltraIta{
+			font-family: Gotham-UltraIta;
+		}
+		.Gotham-XLight{
+			font-family: Gotham-XLight;
+		}
+		.Gotham-XLightIta{
+			font-family: Gotham-XLightIta;
+		}
+.mdl-card__title{
+	padding: 0 !important;
+}
+
+.demo-card-wide.mdl-card {
+  width: 98.666667% !important;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.well{
+	    background: #fff !important;
+	    border: none;
+	    border-radius: 0;
+   		box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12) !important;
+}
+
+.border-b{
+	    border-bottom: 6px solid #13b0a5;
+}
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+
+.margin-top-1{
+	margin-top: 1px;
+}
+
+figure.snip0064 {
+  font-family: 'Raleway', Arial, sans-serif;
+  overflow: hidden;
+  position: relative;	
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 480px;
+  max-height: 210px;
+  width: 100%;
+  background: #ffffff;
+  color: #ffffff;
+  border: 10px solid #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip0064 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+figure.snip0064 .image {
+  position: relative;
+  width: 58%;
+  overflow: hidden;
+  left: -14%;
+  z-index: 1;
+  box-shadow: 0px 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+}
+figure.snip0064 .image img {
+  position: relative;
+  right: -20%;
+  max-width: 100%;
+  -webkit-transform: skewX(15deg);
+  transform: skewX(15deg);
+}
+figure.snip0064 figcaption {
+  background: #262626;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+figure.snip0064 figcaption h2,
+figure.snip0064 figcaption p {
+  margin: 0;
+  text-align: right;
+  width: 100%;
+}
+figure.snip0064 figcaption h2 {
+  bottom: 40px;
+  position: absolute;
+  padding: 0px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.snip0064 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0064 figcaption p {
+  padding: 17px 102px;
+  width: 50%;
+  right: 98px;
+  bottom: 80px;
+  position: absolute;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.snip0064 figcaption .position {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 40px;
+  padding-right: 20px;
+  font-style: italic;
+  opacity: 0.3;
+}
+
+figure.snip0064.blue figcaption {
+  background: #20638f;
+}
+figure.snip0064.red figcaption {
+  background: #962d22;
+}
+figure.snip0064.yellow figcaption {
+  background: #bf6516;
+}
+figure.snip0064:hover figcaption,
+figure.snip0064.hover figcaption {
+  background: #333333;
+}
+figure.snip0064:hover.blue figcaption,
+figure.snip0064.hover.blue figcaption {
+  background: #2472a4;
+}
+figure.snip0064:hover.red figcaption,
+figure.snip0064.hover.red figcaption {
+  background: #ab3326;
+}
+figure.snip0064:hover.yellow figcaption,
+figure.snip0064.hover.yellow figcaption {
+  background: #d67118;
+}
+figure.snip0064:hover .image,
+figure.snip0064.hover .image {
+  box-shadow: 0px 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.single-background {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 370px;
+    background: url(https://wallpaperstock.net/wallpapers/thumbs1/45374hd.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(1px);
+}
+
+.post-relax{
+	position: relative;
+    top: -169px;
+}
+
+.slider {
+
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+    .black-666{
+    	color: #666 !important;
+    }
+
+    .no-mayu{
+    	text-transform: unset;
+    }
+
+    .i-position{
+    	    position: relative;
+    		top: 7px;
+    }
+
+    .margin-top-15{
+    	margin-top: 15px;
+    }
+    .margin-left-15{
+    	margin-left: 15px;
+    }
+
+    .font-size28{
+    	font-size: 28px;
+    }
+
+    .width100{
+    	    width: 100% !important;
+    }
+
+    .font-size25{
+    	    font-size: 24px;
+    }
+
+    .font-size12{
+    	font-size: 12px!important;
+    }
+
+    .font-size15{
+      font-size: 15px !important;
+    }
+    .letter-spacing{
+      letter-spacing: 1px;
+    }
+    .unfirt{
+      text-transform: capitalize;
+    }
+    .margin10{
+      margin: 7px 10px;
+    }
+
+    .link{
+      color: #13B0A5;
+    }
+    .no-bottom{
+      padding-bottom: 0 !important;
+    }
+    .baget{
+          display: none;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: 100;
+          background-color: #2c3e50; 
+          padding: 18px 15px; 
+           transition: all 2s; 
+          color: #F5F7FA !important;
+    }
+      .showme{ 
+      display: none;
+      transition: all 2s;
+
+      }
+      .showhim:hover .showme{
+      transition: all 2s;
+      display : block;
+
+
+      }
+    .active-js{
+      background-color: #F6BB42 !important;
+      color: #E6E9ED !important;
+    }
+    .active-php{
+      background-color: #5D9CEC !important;
+    }
+
+    .font-size-18{
+          font-size: 18px;
+    }
+
+    .mdl-badge[data-badge]:after{
+      background-color: #ED5565 !important;
+    }
+      .mdl-shadow--2dp{
+        transition: all 150ms ease-in-out;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1) !important;      
+      }
+
+    .mdl-shadow--2dp:hover{
+          transform: translateY(-1px);
+           box-shadow: 0 10px 20px 0 rgba(168,182,191,0.6) !important;
+    }
